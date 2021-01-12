@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-popularplacesapp-dev-103627-authRole",
+      "UnauthRoleArn": "arn:aws:iam::181597374496:role/amplify-popularplacesapp-dev-103627-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::181597374496:role/amplify-popularplacesapp-dev-103627-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-popularplacesapp-dev-103627-deployment",
+      "UnauthRoleName": "amplify-popularplacesapp-dev-103627-unauthRole",
+      "StackName": "amplify-popularplacesapp-dev-103627",
+      "StackId": "arn:aws:cloudformation:eu-central-1:181597374496:stack/amplify-popularplacesapp-dev-103627/a7286f20-54b9-11eb-8cd3-02ecea353e44",
+      "AmplifyAppId": "d3acc44vcsyhvn"
+    }
+  }
+}

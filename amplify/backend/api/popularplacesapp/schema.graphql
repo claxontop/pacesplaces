@@ -1,0 +1,6 @@
+type Place @model {
+  id: ID!
+  description: String!
+  imgUrl: String!
+  title: String!
+}
