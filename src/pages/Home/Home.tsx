@@ -5,7 +5,7 @@ import PlaceForm from '../../components/PlaceForm/PlaceForm';
 import {API, graphqlOperation} from 'aws-amplify';
 import {listPlaces} from '../../graphql/queries';
 import {createPlace} from '../../graphql/mutations';
-// import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 
 export interface Place {
     id: string;
@@ -80,10 +80,10 @@ const Home: React.FC = () => {
             <div className="places-form">
                 <PlaceForm createPlace={addPlace} />
             </div>
-            {/* <AmplifySignOut /> */}
+            <AmplifySignOut />
         </div>
     );
 };
 
-// export default withAuthenticator (Home);
-export default Home;
+export default withAuthenticator (Home);
+// export default Home;
