@@ -17,7 +17,7 @@ const PlaceList: React.FC <PlacesListProps> = (props) => {
     return (
         <div className="places-list">
             <Typography variant="h5" className="list-title">
-                List of popular places
+                Lista de sitios populares
             </Typography>
             <GridList className="grid-list" cols={2.5}> 
                 {props.places.map((place) => (

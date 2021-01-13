@@ -33,14 +33,14 @@ const PlaceForm: React.FC <PlaceFormProps> = (props) => {
     return (
         <div className='place-form'>
             <Typography variant='h5' className='form-title'>
-                Complete the fields to add a new place
+                Completa los campos para añadir nuevos lugares
             </Typography>
             <form className="form-fields" noValidate autoComplete="off">
                 <TextField inputRef={inputName} className="input-field" label='Place name' />
                 <TextField inputRef={inputDescription} className="input-field" label='Place description' />
                 <TextField inputRef={inputImageUrl} className="input-field" label='Image url' />
                 <Button className="submit-button" variant='contained' color='primary' onClick={addPlace}>
-                    Add place
+                    Añadir localización
                 </Button>
             </form>
         </div>
