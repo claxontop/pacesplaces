@@ -29,39 +29,6 @@ const Home: React.FC = () => {
             const placesList =  placesData.data.listPlaces.items as Place[];
             setPlaces(placesList);
         } catch(err) {console.log('Error fetching places: ', err)}
-
-         // setPlaces([
-        //     {
-        //         id: '1',
-        //         imgUrl: 'https://images.pexels.com/photos/3254729/pexels-photo-3254729.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-        //         title: 'Madrid',
-        //         description: 'Very sunny and beautiful city'
-        //     },
-        //     {
-        //         id: '2',
-        //         imgUrl: '    ',
-        //         title: 'Paris',
-        //         description: 'The City of Lights'
-        //     },
-        //     {
-        //         id: '3',
-        //         imgUrl: 'https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-        //         title: 'London',
-        //         description: 'Rainy and nice place'
-        //     },
-        //     {
-        //         id: '4',
-        //         imgUrl: 'https://images.pexels.com/photos/1797161/pexels-photo-1797161.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-        //         title: 'Rome',
-        //         description: 'Lots of history in its streets!'
-        //     },
-        //     {
-        //         id: '5',
-        //         imgUrl: 'https://images.pexels.com/photos/164336/pexels-photo-164336.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-        //         title: 'Greece',
-        //         description: 'Perfect beach destination'
-        //     }
-        // ]);
     };
     
     const addPlace = async (place: Place) => {
@@ -82,6 +49,7 @@ const Home: React.FC = () => {
             </div>
             <AmplifySignOut />
         </div>
+        
     );
 };
 
